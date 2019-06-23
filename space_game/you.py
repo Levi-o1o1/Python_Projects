@@ -1,6 +1,6 @@
 import os 
 import random
-
+# this is  a snake game in pyhthon 
 import turtle
 turtle.fd(0)
 # set the animation speed to the maximum
