@@ -13,7 +13,7 @@
 # for number in reversed(numbers):
 #     print(number)
 
-fruts = {"banana", "kwviw","watermelon"}
+fruits = {"banana", "kwviw","watermelon"}
 
-for furt in fruts:
-    print(furt)
+for fruit in fruits:
+    print(fruit)
