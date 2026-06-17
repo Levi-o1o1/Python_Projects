@@ -1,5 +1,5 @@
-# *args is tuple
-# **kawargs is dict
+# *args is tuple for non keyword argsments
+# **kawargs is dict for keyword args
 
 def add(*args):
     total = 0
