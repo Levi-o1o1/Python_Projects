@@ -15,6 +15,7 @@ print(m1.color)
 # classes and constractor 
 
 class Bike:
+    isBike = " yes these all are bikes " # its a global var use to define only one time to store a 1 time value 
     def __init__(self, model,color):
         self.model = model
         self.color = color
@@ -28,3 +29,7 @@ print(b1.model)
 print(b1.color)
 print(b2.model)
 print(b2.color)
+print(b1.model, b1.color)
+print(b2.model, b2.color)
+print(b2.isBike)
+print(Bike.isBike)
