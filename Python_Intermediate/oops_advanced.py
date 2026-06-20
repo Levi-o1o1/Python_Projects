@@ -11,7 +11,7 @@
 # print(s1.name)
 
 # private attributes & methods
-#private fuction made for __ after attribute and methods only use for class when we private that 
+#private fuction made for __ after attribute and methods only use for class when we private that not accesible outside the class
 
 class person:
     __name = "unknow"
