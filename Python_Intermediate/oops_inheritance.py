@@ -22,3 +22,29 @@ car1 = nishan("gtr")
 car2 = nishan("skyline")
 
 print(car1.start())
+
+# super method 
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>..
+
+class Car:    
+    def __init__(self, type):
+        self.type = type
+
+    @staticmethod  
+    def start():  
+        print("car is started...")
+
+
+    def stop():  
+        print("car stopped.")
+
+
+class nishan(Car):
+    def __init__(self,name, type):
+        super().__init__(type)
+        self.name = name
+        super().start()
+
+
+car1 = nishan("gtr", "electric")
+print(car1.type)
