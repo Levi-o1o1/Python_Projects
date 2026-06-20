@@ -48,3 +48,7 @@ class nishan(Car):
 
 car1 = nishan("gtr", "electric")
 print(car1.type)
+
+
+
+
