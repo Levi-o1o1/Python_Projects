@@ -26,7 +26,10 @@ for x in card_num[1::2]:
 
 total = sum_odd + sum_even
 
-
+if total % 10 == 0:
+    print("VALID")
+else:
+    print("INVAILD")
 
 
 print(card_num)
