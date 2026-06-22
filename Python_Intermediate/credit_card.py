@@ -11,4 +11,7 @@ total = 0
 card_num = input("Enter a credit card number :")
 card_num = card_num.replace("-", "")
 card_num = card_num.replace(" ", "")
+card_num = card_num[:: -1]  # reverse the string 
+
+
 print(card_num)
