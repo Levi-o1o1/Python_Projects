@@ -15,7 +15,14 @@ card_num = card_num[:: -1]  # reverse the string
 
 
 for x in card_num[::2]:
-    sum_odd += x
+    sum_odd += int(x)
     
+for x in card_num[1::2]:
+    x = int(x) * 2
+    if x >= 10:
+        sum_even += (1 +(x % 10))
+    else:
+        sum_even += 
+
 
 print(card_num)
