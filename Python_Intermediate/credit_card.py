@@ -14,4 +14,8 @@ card_num = card_num.replace(" ", "")
 card_num = card_num[:: -1]  # reverse the string 
 
 
+for x in card_num[::2]:
+    sum_odd += x
+    
+
 print(card_num)
