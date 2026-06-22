@@ -22,7 +22,11 @@ for x in card_num[1::2]:
     if x >= 10:
         sum_even += (1 +(x % 10))
     else:
-        sum_even += 
+        sum_even += x
+
+total = sum_odd + sum_even
+
+
 
 
 print(card_num)
