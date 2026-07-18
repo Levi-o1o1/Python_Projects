@@ -29,7 +29,7 @@ class Sprite(turtle.Turtle):
         if self.xcor() > 290:
             self.rt(60)
             
-
+# comment for nothing
 class Player(Sprite):
     def __init__(self, spriteshape, color, startx, starty):
         Sprite. __init__(self, spriteshape, color, startx, starty)
